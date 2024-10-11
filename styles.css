@@ -1,13 +1,13 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
 
 :root {
-  --primary-color: #da042a;
-  --primary-color-dark: #c00427;
-  --secondary-color: #15151f;
-  --secondary-color-dark: #0a0b0f;
-  --text-light: #6b7280;
-  --extra-light: #f8f7fd;
-  --white: #ffffff;
+  --primary-color: #00d1cd;
+  --primary-color-dark: #00d1cd;
+  --secondary-color: #7d7d7d;
+  --secondary-color-dark: #f3f3f3;
+  --text-light: #8d8d8d;
+  --extra-light: #f0f0f0;
+  --white: #9f9f9f;
   --max-width: 1200px;
 }
 
@@ -33,7 +33,7 @@
   font-size: 2.5rem;
   font-weight: 700;
   line-height: 3.5rem;
-  color: var(--secondary-color-dark);
+  color: var(--secondary-color);
 }
 
 .section__description {
@@ -108,7 +108,7 @@ nav {
   align-items: center;
   justify-content: space-between;
   gap: 2rem;
-  background-color: var(--secondary-color-dark);
+  background-color: var(--secondary-color);
 }
 
 .nav__menu__btn {
